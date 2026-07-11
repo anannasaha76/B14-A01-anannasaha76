@@ -120,11 +120,28 @@
     font-size: 14px;
     margin: 0px 30px 11px;
 }
+.price-title
+{
+    text-align: center;
+    margin-top: 120px;
+    font-weight: bold;
+    font-size: 23px;
+    color: #0D1B2A;
+}
+.price-description
+{
+  text-align: center; 
+  margin-top: 17px; 
+  margin-bottom: 45px;
+  font-size: 18px;
+  color: #575757;
+
+}
 .card
 {
     border: 2px solid #E5E7EB;
-    height: 370px;
-    width: 444px;
+    height: 430px;
+    width: 300px;
     border-radius: 5px;
     background-color: #FFFFFF;
 }
@@ -135,7 +152,91 @@
     gap: 20px;
     
 }
-.footer-main
+.card-info
 {
     display: flex;
+    flex-direction: column;
+}
+.card-info p
+{
+    color: #888888;
+    font-weight: 700px;
+    font-size: 14px;
+    margin: 25px 20px 8px;
+}
+.card-info h2
+{
+    color: #0D1B2A;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 20px 8px;
+}
+.card-info span
+{
+    color: #888888;
+    font-size: 13px;
+    margin: 0px 20px 10px;
+}
+.hri
+{
+    width: 240px;
+    margin: 0px 30px;
+    background-color: #E5E7EB;
+}
+.card ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+.card ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.card-bullet
+{
+    width: 5px;
+    height: 5px;
+    background-color: #2563EB;
+    border-radius: 100%;
+}
+.price-button
+{
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    margin-left: 30px;
+    padding: 10px 80px;
+    border-radius: 7px;
+}
+.card-extend
+{
+    border: 2px solid #0D1B2A;
+    height: 430px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #0D1B2A;
+}
+.card-extend p
+{
+    color: #93C5FD;
+    font-weight: 700px;
+    font-size: 14px;
+    margin: 25px 20px 8px;
+}
+.card-extend h2
+{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 20px 8px;
+}
+.card-extend span
+{
+    color: #575757;
+    font-size: 13px;
+    margin: 0px 20px 10px;
 }
