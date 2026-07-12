@@ -1,0 +1,1 @@
+Act as a professional senior software engineer. Make  a relevant section above footer. It can be like Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.  Only one section and design color theme must same like other section.make creative section but understandable by normal user too.
