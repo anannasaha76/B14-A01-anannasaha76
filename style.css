@@ -280,6 +280,121 @@
     border: 1px solid #0D1B2A;
     color: #0D1B2A;
 }
+.testimonial-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.testimonial-title
+{
+    color: #0D1B2A;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.testimonial-description
+{
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 45px;
+    font-size: 18px;
+    color: #575757;
+}
+.testimonial-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 1050px;
+}
+.testimonial-card
+{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    padding: 28px 26px 24px;
+    position: relative;
+    margin-bottom: 14px;
+}
+.testimonial-card-dark
+{
+    background-color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+.testimonial-stars
+{
+    color: #EF9F27;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+.testimonial-quote
+{
+    color: #0D1B2A;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+.testimonial-card-dark .testimonial-quote
+{
+    color: #FFFFFF;
+}
+.testimonial-bubble-tail
+{
+    position: absolute;
+    bottom: -12px;
+    left: 40px;
+    width: 22px;
+    height: 22px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
+    transform: rotate(45deg);
+}
+.testimonial-bubble-tail-dark
+{
+    background-color: #0D1B2A;
+    border-right: 1px solid #0D1B2A;
+    border-bottom: 1px solid #0D1B2A;
+}
+.testimonial-person
+{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.testimonial-avatar
+{
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+.avatar-blue { background-color: #2563EB; }
+.avatar-green { background-color: #5DCAA5; }
+.avatar-light { background-color: rgba(255,255,255,0.15); }
+.testimonial-name
+{
+    color: #0D1B2A;
+    font-size: 14px;
+    font-weight: bold;
+}
+.testimonial-name-light { color: #FFFFFF; }
+.testimonial-role
+{
+    color: #888888;
+    font-size: 12px;
+}
+.testimonial-role-light { color: rgba(255,255,255,0.5); }
 footer
 {
     background-color: #0D1B2A;
